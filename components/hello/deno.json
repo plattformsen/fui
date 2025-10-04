@@ -6,14 +6,6 @@
   "imports": {
     "@fui/shared": "jsr:@fui/shared@^0.1.0"
   },
-  "lint": {
-    "rules": {
-      "tags": [
-        "fresh",
-        "recommended"
-      ]
-    }
-  },
   "compilerOptions": {
     "lib": [
       "dom",

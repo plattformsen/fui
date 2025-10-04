@@ -3,6 +3,14 @@
     "preact": "npm:preact@^10.27.2"
   },
   "nodeModulesDir": "auto",
+  "lint": {
+    "rules": {
+      "tags": [
+        "fresh",
+        "recommended"
+      ]
+    }
+  },
   "workspace": {
     "members": [
       "components/*",
