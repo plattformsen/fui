@@ -1,0 +1,23 @@
+{
+  "imports": {},
+  "nodeModulesDir": "auto",
+  "workspace": {
+    "members": [
+      "components/*",
+      "packages/*"
+    ]
+  },
+  "publish": {
+    "include": [
+      "**/*.tsx"
+    ],
+    "exclude": [
+      "**/*_test.tsx",
+      "**/*_test.ts",
+      "**/*.story.tsx",
+      "**/*.stories.tsx",
+      "**/*.mdx",
+      "**/*.md"
+    ]
+  }
+}
