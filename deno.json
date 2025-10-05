@@ -1,6 +1,7 @@
 {
   "imports": {
-    "preact": "npm:preact@^10.27.2"
+    "preact": "npm:preact@^10.27.2",
+    "tailwindcss": "npm:tailwindcss@^4.1.14"
   },
   "nodeModulesDir": "auto",
   "lint": {
