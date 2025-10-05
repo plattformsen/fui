@@ -62,7 +62,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     needs: [format, lint, test]
-    if: github.repository == 'plattformsen/ui' && github.event_name == 'push' && startsWith(github.ref, 'refs/branches/main')
+    if: github.repository == 'plattformsen/fui' && github.event_name == 'push' && startsWith(github.ref, 'refs/branches/main')
     permissions:
       contents: read
       id-token: write
